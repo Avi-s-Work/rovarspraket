@@ -4,9 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rovarspraket</title>
+    <title>Rövarspråket</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>Rovarspraket The Robber Language</h1>
+    <h1 class="text-center text-uppercase">Rövarspråket</h1>
+    <h4 class="text-center text-uppercase">The Robber Language</h4>
+    <!-- Button trigger modal -->
+    <div class="d-flex justify-content-center">
+      <button
+        type="button"
+        class="btn btn-sm btn-danger"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Read More
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              About Rovarspraket
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p style="font-size: 14px; text-align: justify">
+              Rövarspråket (English: The Robber Language) is a Swedish language
+              game. It became popular after the books about Bill Bergson by
+              Astrid Lindgren, where the children use it as a code, both at play
+              and in solving actual crimes. <br /><br />
+              Rövarspråket is not very complicated: you take an ordinary word
+              and replace the consonants with the consonant doubled and with an
+              "o" in between. So the consonant "b" is replaced by "bob", "r" is
+              replaced with "ror", "s" is replaced with "sos", and so on. Vowels
+              are left intact. It's made for Swedish, but it works just as well
+              in English.
+              <br />
+              <br />
+              Since Rövarspråket is a Swedish invention, your program should
+              follow Swedish rules regarding what is a vowel and what is a
+              consonant. The Swedish alphabet is the same as the English
+              alphabet except that there are three extra characters at the end
+              (Å, Ä and Ö) which are all vowels. In addition, Y is always a
+              vowel in Swedish, so the full list of vowels in Swedish is A, E,
+              I, O, U, Y, Å, Ä and Ö. The rest are consonants.
+              <br />
+              <br />
+              <strong>Example :</strong> <br />
+              <strong class="text-secondary">Eng - </strong> I'm speaking
+              Robber's language! <br />
+              <strong class="text-secondary">Rov - </strong>I'mom
+              sospopeakokinongog Rorobobboberor'sos lolanongoguagoge!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
