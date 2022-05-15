@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 
-const app = express();
+const app = express(); 
 
 // Static Files
 app.use(express.static("public"));
