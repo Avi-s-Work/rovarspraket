@@ -3,6 +3,10 @@ const path = require("path");
 
 const app = express();
 
+// Static Files
+app.use(express.static("public"));
+app.use("/js", express.static(__dirname + "public/js"));
+
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
