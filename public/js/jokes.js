@@ -1,5 +1,5 @@
 const button = document.querySelector(".container button");
-const jokeDiv = document.querySelector(".container .joke p");
+const jokeDiv = document.querySelector(".container .joke span");
 
 document.addEventListener("DOMContentLoaded", getJock);
 
