@@ -98,18 +98,17 @@
     <!-- Modal -->
     <!-- Input Field -->
     <div class="mt-5 mb-5 w-25 mx-auto">
-      <div class="input-group mb-3">
-        <input
-          type="text"
-          class="form-control"
-          placeholder="English"
-          aria-label="English"
-          aria-describedby="button-addon2"
-        />
-        <button class="btn btn-danger" type="button" id="button-addon2">
-          Translate
-        </button>
-      </div>
+      <form action="/translate/normal" method="post">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            name="name"
+            placeholder="English"
+          />
+          <button class="btn btn-danger" type="submit">Translate</button>
+        </div>
+      </form>
     </div>
     <!-- Input Field -->
     <section>
